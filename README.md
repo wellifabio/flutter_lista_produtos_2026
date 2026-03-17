@@ -3,7 +3,6 @@ Aplicativo de estudos de listas com flutter
 - List
 - ListView
 - Conceitos de MVC com classe Modelo
-- Conceitos de Mockup
 - Fltros
 ## Tecnologias
 - Flutter

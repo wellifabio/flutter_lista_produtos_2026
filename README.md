@@ -3,7 +3,7 @@ Aplicativo de estudos de listas com flutter
 - List
 - ListView
 - Conceitos de MVC com classe Modelo
-- Fltros
+- Filtros
 ## Tecnologias
 - Flutter
 ## Print
@@ -32,7 +32,7 @@ lib
 #### 3 Preencha os arquivos com os códigos deste repositório
 Alterando os nomes das imagens para as que você escolheu.
 - Este projeto possui exemplos de navegação de telas com Navigator.push(), Navigator.pop().
-- Exemplo tamblem de ListView.
+- Exemplo tamblem de **ListView**.
 
 ## Passo a passo para testar este códico
 - 1 Clone este repositório.
@@ -41,3 +41,17 @@ Alterando os nomes das imagens para as que você escolheu.
 flutter pub get
 flutter run
 ```
+
+## Atividades
+Crie um aplicativo chamado "flutter_rh_lista" que renderize em forma de lista **ListView** uma classe chamada **Funcionario**:
+```dart
+class Funcionario{
+    int id = 0;
+    String nome = '';
+    String cargo = '';
+    double salario = 0.0;
+    String dataContratacao = '';
+    String? dataDemissao;
+}
+```
+O App deve ter duas telas, uma inicial e outra com a lista de funcionários ao clicar em um item da lista deve mostra-lo em um **AlertDialog**, dois filtros um de nome e outro de cargo.
